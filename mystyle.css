@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Niramit&family=Patrick+Hand&display=swap');
+
+
+/* TOP */
+
+body {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+    width: 95%;
+    margin: auto;
+    background-image: linear-gradient(white, #234353);
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* HEADER */
+
+.grid-firstborne {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.pictures {
+    /* background-color: lightcoral; */
+    display:flex;
+    justify-content: center;
+    margin-top:1em;
+}
+
+.profile-picture {
+    display: flex;
+    width: 25vh;
+    border: 3px solid black;
+    border-radius: 100%;
+}
+
+.title-name {
+    /* background-color: lightgreen; */
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.title-name p {
+    font-size: 1.3rem;
+}
+
+.links {
+    /* background-color: lightblue; */
+    justify-content: center;
+    align-items: center;    
+    display: flex;
+    flex-direction: row;
+    gap:1em;
+}
+
+/* .links, img {
+    Tried here with display and f-d when not able to replicate with .links : just had to add align-items to structure rogue images
+} */
+
+.linkedin-pic {
+    width:5rem;
+    display: flex;
+}
+
+.github-pic {
+    display:flex;
+    width: 5rem;
+}
+
+/* PRESENTATION */
+
+.presentation {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+    background-color: #6091C3;
+}
+
+.prez {
+    /* display: flex; */
+    /* align-self: flex-start; */
+    /* background-color: lightsalmon; */
+    padding-left: 2em;
+}
+
+.about {
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: lightyellow; */
+    padding:20px;
+}
+
+/* GRID-MASTER */
+
+.grid-master {
+    display:grid;
+    gap:1em;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 2em;
+}
+
+.flex-1 {
+    /* display:grid;
+    flex-direction: column; */
+    background-color:lightcoral;
+    grid-row: 1/3;
+    padding:25px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.flex-2 {
+    background-color: #9AACBD;
+    padding: 25px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.flex-3 {
+    background-color: #388ADD;
+    padding: 25px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+/* GRID - MASTER - BORDERS */
+
+.presentation {
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+
+/* FLEX-1 INFO */
+
+.info {
+    line-height: 3rem;
+}
+
+.info img {
+    width:2rem;
+    padding-right:30px;
+}
+
+.info-one {
+    display: flex;
+    align-items: center;
+}
+
+/* .phone { THIS WAS THE PHONE ONLY TRY
+    padding-right:30px;
+    display:flex;
+    align-self: flex-start;
+} */
+
+.info-two {
+    display: flex;
+    align-items: center;
+}
+
+.info-three {
+    display: flex;
+    align-items: center;
+}
+
+
+/* ARTICLE : SKILLS */
+
+/* .skills-list {
+    list-style-type: square;
+} */
+
